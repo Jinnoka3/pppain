@@ -1,0 +1,390 @@
+{
+  "flowsToRun": [
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @ThemeProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @GameProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @ApplicationProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @AvatarProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @SEProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @UEProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    }
+  ],
+  "flowsToRun2": [
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @ThemeProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @GameProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @ApplicationProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @AvatarProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @SEProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    },
+    {
+      "flowSteps": [
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eProduct --tags @SCP_Create --tags @GameConcept --tags @UEProduct --tags @ASIA"
+        },
+        {
+          "projectName": "CHECK_TEST_DATA_UNITY",
+          "cucumberOptions": ""
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/01SubmitMDT_BookSlot.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/02formatQAStatusConditionallyVerified.feature"
+        },
+        {
+          "projectName": "UNITY",
+          "cucumberOptions": "./test/features/03fQAwebSignLiability.feature"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submitEntitlement"
+        },
+        {
+          "projectName": "SCP",
+          "cucumberOptions": "--tags @e2eproduct --tags @submit_approve"
+        }
+      ]
+    }
+  ]
+}
